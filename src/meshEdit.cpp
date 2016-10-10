@@ -42,7 +42,56 @@ namespace CMU462 {
     // TODO: (meshEdit)
     // This method should erase the given edge and return an iterator to the
     // merged face.
-    return FaceIter();
+
+    if(e->isBoundary()) {
+      // Does nothing if e is a boundary edge
+      return e->halfedge()->face();
+    }
+
+    std::vector<HalfedgeIter> h;
+    h.push_back(e->halfedge());
+    std::vector<VertexIter> v;
+
+    FaceIter f0 = h[0]->face();
+    FaceIter f1 = h[0]->twin()->face();
+
+    // Collect halfedges
+    HalfedgeIter hiter = h[0]->next();
+    do {
+      h.push_back(hiter);
+      hiter = hiter->next();
+    } while(hiter != h[0]);
+
+    hiter = h[0]->twin();
+    do {
+      h.push_back(hiter);
+      hiter = hiter->next();
+    } while(hiter != h[0]->twin());
+
+    // Reassign necessary halfedge next pointers
+    Size f0_size = f0->degree();
+    Size f1_size = f1->degree();
+    h[f0_size - 1]->next() = h[0]->twin()->next();
+    h[f0_size + f1_size - 1]->next() = h[1];
+
+    // Reassign f0 as face for all connected halfedges
+    hiter = h[1];
+    do {
+      hiter->face() = f0;
+      hiter = hiter->next();
+    } while(hiter != h[1]);
+
+    // Reassign halfedges of vertices of deleted edge
+    h[0]->vertex()->halfedge() = h[f0_size + 1];
+    h[0]->twin()->vertex()->halfedge() = h[1];
+
+    // Delete unneeded halfedges, edges, faces
+    deleteHalfedge(h[0]);
+    deleteHalfedge(h[0]->twin());
+    deleteEdge(e);
+    deleteFace(f1);
+
+    return f0;
   }
 
   EdgeIter HalfedgeMesh::flipEdge(EdgeIter e0) {
@@ -50,6 +99,83 @@ namespace CMU462 {
     // TODO: (meshEdit)
     // This method should flip the given edge and return an iterator to the
     // flipped edge.
+
+    std::vector<HalfedgeIter> h;
+    h.push_back(e0->halfedge());
+    std::vector<EdgeIter> e;
+    std::vector<VertexIter> v;
+
+    // Collect faces
+    FaceIter f0 = h[0]->face();
+    FaceIter f1 = h[0]->twin()->face();
+
+    // Collect halfedges, edges, and vertices of f0
+    HalfedgeIter hiter = h[0];
+    do {
+      hiter = hiter->next();
+      h.push_back(hiter);
+      e.push_back(hiter->edge());
+      v.push_back(hiter->vertex());
+    } while(hiter != h[0]);
+
+    // Collect halfedges, edges, and vertices of f1
+    hiter = h[0]->twin();
+    do {
+      h.push_back(hiter);
+      if(hiter != h[0]->twin()) {
+        // Prevents e0 from being added again to edges
+        e.push_back(hiter->edge());
+        if(hiter != h[0]->twin()->next()) {
+          // Prevents v0 and v1 from being added twice to vertices
+          v.push_back(hiter->vertex());
+        }
+      }
+      hiter = hiter->next();
+    } while (hiter != h[0]->twin());
+
+    // TODO: Collect outside halfedges
+
+    // Reassign halfedge values
+    Size f0_size = f0->degree();
+    Size f1_size = f1->degree();
+
+    h[0]->next() = h[1];
+    h[0]->vertex() = v[f0_size];
+    h[0]->twin() = h[f0_size];
+    h[0]->edge() = e[0];
+    h[0]->face() = f0;
+
+    for(int i = 1; i < f0_size; i++) {
+      h[i]->next() = h[(i + 4) % 4];
+      h[i]->vertex() = h[i]->twin()->vertex();
+      h[i]->twin() = e[i + 1]->halfedge();
+      h[i]->edge() = e[i + 1];
+      h[i]->face() = f0;
+
+      // Check if these vertex/edge reassigns are ok
+      h[i]->twin()->vertex()->halfedge() = h[i];
+      e[i + 1]->halfedge() = h[i];
+    }
+
+    h[f0_size]->next() = h[f0_size + 1];
+    h[f0_size]->vertex() = v[2];
+    h[f0_size]->twin() = h[0];
+    h[f0_size]->edge() = e[0];
+    h[f0_size]->face() = f1;
+
+    for(int i = f0_size; i < f0_size + f1_size; i++) {
+      h[i]->next() = h[(i + 4) % 4 + 4];
+      h[i]->vertex() = h[i]->twin()->vertex();
+      int new_e = (i + 1 == e.size()) ? 1 : i + 1;
+      h[i]->twin() = e[new_e]->halfedge();
+      h[i]->edge() = e[new_e];
+      h[i]->face() = f1;
+
+      // Check if these vertex/edge reassigns are ok
+      h[i]->twin()->vertex()->halfedge() = h[i];
+      e[new_e]->halfedge() = h[i];
+    }
+
     return EdgeIter();
   }
 
