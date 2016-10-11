@@ -39,7 +39,6 @@ namespace CMU462 {
   }
 
   FaceIter HalfedgeMesh::eraseEdge( EdgeIter e ) {
-    // TODO: (meshEdit)
     // This method should erase the given edge and return an iterator to the
     // merged face.
 
@@ -99,27 +98,32 @@ namespace CMU462 {
   }
 
   EdgeIter HalfedgeMesh::flipEdge(EdgeIter e0) {
-
-    // TODO: (meshEdit)
     // This method should flip the given edge and return an iterator to the
     // flipped edge.
+
+    if(e0->isBoundary()) {
+      // Don't flip boundary edges
+      return e0;
+    }
 
     std::vector<HalfedgeIter> h;
     h.push_back(e0->halfedge());
     std::vector<EdgeIter> e;
+    e.push_back(e0);
     std::vector<VertexIter> v;
+    v.push_back(h[0]->vertex());
 
     // Collect faces
     FaceIter f0 = h[0]->face();
     FaceIter f1 = h[0]->twin()->face();
 
     // Collect halfedges, edges, and vertices of f0
-    HalfedgeIter hiter = h[0];
+    HalfedgeIter hiter = h[0]->next();
     do {
-      hiter = hiter->next();
       h.push_back(hiter);
       e.push_back(hiter->edge());
       v.push_back(hiter->vertex());
+      hiter = hiter->next();
     } while(hiter != h[0]);
 
     // Collect halfedges, edges, and vertices of f1
@@ -137,50 +141,49 @@ namespace CMU462 {
       hiter = hiter->next();
     } while (hiter != h[0]->twin());
 
-    // TODO: Collect outside halfedges
-
-    // Reassign halfedge values
+    // Collect outside halfedges
     Size f0_size = f0->degree();
     Size f1_size = f1->degree();
 
-    h[0]->next() = h[1];
-    h[0]->vertex() = v[f0_size];
-    h[0]->twin() = h[f0_size];
-    h[0]->edge() = e[0];
-    h[0]->face() = f0;
+    for(int i = 1; i < f0_size + f1_size; i++) {
+      if(i != f0_size) {
+        // Prevent h0 from being added as outside edge
+        h.push_back(h[i]->twin());
+        // Set edge halfedge to outside halfedge for ease of reassigns later
+        h[i]->edge()->halfedge() = h[i]->twin();
+      }
+    }
+
+    // Reassign halfedges, edges, and vertices
+    h[0]->setNeighbors(h[1], h[f0_size], v[f0_size], e[0], f0);
+    e[0]->halfedge() = h[0];
+    v[f0_size]->halfedge() = h[0];
 
     for(int i = 1; i < f0_size; i++) {
-      h[i]->next() = h[(i + 4) % 4];
-      h[i]->vertex() = h[i]->twin()->vertex();
-      h[i]->twin() = e[i + 1]->halfedge();
-      h[i]->edge() = e[i + 1];
-      h[i]->face() = f0;
+      h[i]->setNeighbors(h[(i + 1) % f0_size], e[i + 1]->halfedge(), h[i]->twin()->vertex(), e[i + 1], f0);
 
-      // Check if these vertex/edge reassigns are ok
+      // Reassign vertex and edge to moved halfedge
       h[i]->twin()->vertex()->halfedge() = h[i];
       e[i + 1]->halfedge() = h[i];
     }
 
-    h[f0_size]->next() = h[f0_size + 1];
-    h[f0_size]->vertex() = v[2];
-    h[f0_size]->twin() = h[0];
-    h[f0_size]->edge() = e[0];
-    h[f0_size]->face() = f1;
+    h[f0_size]->setNeighbors(h[f0_size + 1], h[0], v[2], e[0], f1);
+    v[2]->halfedge() = h[f0_size];
 
-    for(int i = f0_size; i < f0_size + f1_size; i++) {
-      h[i]->next() = h[(i + 4) % 4 + 4];
-      h[i]->vertex() = h[i]->twin()->vertex();
-      int new_e = (i + 1 == e.size()) ? 1 : i + 1;
-      h[i]->twin() = e[new_e]->halfedge();
-      h[i]->edge() = e[new_e];
-      h[i]->face() = f1;
+    for(int i = f0_size + 1; i < f0_size + f1_size; i++) {
+      int new_e = (i == e.size()) ? 1 : i;
+      h[i]->setNeighbors(h[(i + 1) % f0_size + f0_size], e[new_e]->halfedge(), h[i]->twin()->vertex(), e[new_e], f1);
 
-      // Check if these vertex/edge reassigns are ok
+      // Reassign vertex and edge to moved halfedge
       h[i]->twin()->vertex()->halfedge() = h[i];
       e[new_e]->halfedge() = h[i];
     }
 
-    return EdgeIter();
+    // Reassign faces
+    f0->halfedge() = h[0];
+    f1->halfedge() = h[0]->twin();
+
+    return e[0];
   }
 
   void HalfedgeMesh::subdivideQuad( bool useCatmullClark )
