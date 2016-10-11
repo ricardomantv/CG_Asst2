@@ -458,7 +458,56 @@ namespace CMU462 {
     // positions will be updated in HalfedgeMesh::_bevel_vtx_reposition_with_dist (which you also have to
     // implement!)
 
-    return facesBegin();
+    // Collect halfedges, edges, vertices
+    std::vector<HalfedgeIter> h;
+    h.push_back(f->halfedge());
+    std::vector<EdgeIter> e;
+    e.push_back(h->edge());
+    std::vector<VertexIter> v;
+    v.push_back(h->vertex());
+    std::vector<FaceIter> fs;
+    fs.push_back(f);
+
+    Size f0_size = f->degree();
+
+    HalfedgeIter hiter = h[0]->next();
+    do {
+      h.push_back(hiter);
+      e.push_back(hiter->edge());
+      v.push_back(hiter->vertex());
+      hiter = hiter->next();
+    } while (hiter != h[0]);
+
+    cout << "Eveything collected\n";
+    cout << "H: " << h.size() << ", E: " << e.size() << ", V: " << v.size() << "\n";
+
+    // Create new faces, edges, and vertices
+    for(int i = 0; i < f0_size; i++) {
+      fs.push_back(newFace()); // new face
+      v.push_back(newVertex()); // vertices of new face
+      e.push_back(newEdge()); // connection edges from old face to new face
+      e.push_back(newEdge()); // edges of new face
+    }
+
+    // Create new halfedges
+    for(int i = 0; i < f0_size + 1; i++) {
+      // 3 halfedges for each new surrounding face
+      h.push_back(newHalfedge());
+      h.push_back(newHalfedge());
+      h.push_back(newHalfedge());
+      if(i == 0) {
+        // Add one more halfedge for new inside face
+        h.push_back(newHalfedge());
+      }
+    }
+
+    // Reassign original halfedge values
+    Size f0s2 = f0_size * f0_size;
+    for(int i = 0; i < f0s2; i++) {
+      h[i]->next() = h[(i + f0_size) % f0s2];
+    }
+
+    return fs[fs.size() - 1];
   }
 
   void HalfedgeMesh::splitPolygons(vector<FaceIter>& fcs) {
