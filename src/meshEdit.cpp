@@ -50,7 +50,7 @@ namespace CMU462 {
 
     std::vector<HalfedgeIter> h;
     h.push_back(e->halfedge());
-    std::vector<VertexIter> v;
+    // std::vector<VertexIter> v;
 
     FaceIter f0 = h[0]->face();
     FaceIter f1 = h[0]->twin()->face();
@@ -75,11 +75,14 @@ namespace CMU462 {
     h[f0_size + f1_size - 1]->next() = h[1];
 
     // Reassign f0 as face for all connected halfedges
+    FaceIter f_new = newFace();
     hiter = h[1];
     do {
-      hiter->face() = f0;
+      hiter->face() = f_new;
       hiter = hiter->next();
     } while(hiter != h[1]);
+
+    f_new->halfedge() = h[1];
 
     // Reassign halfedges of vertices of deleted edge
     h[0]->vertex()->halfedge() = h[f0_size + 1];
@@ -89,9 +92,10 @@ namespace CMU462 {
     deleteHalfedge(h[0]);
     deleteHalfedge(h[0]->twin());
     deleteEdge(e);
+    deleteFace(f0);
     deleteFace(f1);
 
-    return f0;
+    return f_new;
   }
 
   EdgeIter HalfedgeMesh::flipEdge(EdgeIter e0) {
