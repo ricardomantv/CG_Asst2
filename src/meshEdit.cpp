@@ -459,7 +459,55 @@ namespace CMU462 {
   }
 
   void HalfedgeMesh::splitPolygon(FaceIter f) {
-    // TODO triangulation
+    Size f0_size = f->degree();
+    if(f0_size <= 3) {
+      // Ignore faces that are already triangles or invalid somehow
+      return;
+    }
+
+    std::vector<HalfedgeIter> h;
+    h.push_back(f->halfedge());
+    std::vector<VertexIter> v;
+    v.push_back(h[0]->vertex());
+
+    // Collect halfedges and vertices
+    HalfedgeIter hiter = h[0]->next();
+    do {
+      h.push_back(hiter);
+      v.push_back(hiter->vertex());
+      hiter = hiter->next();
+    } while(hiter != h[0]);
+
+    // Create new halfedges, edge, and face
+    h.push_back(newHalfedge());
+    h.push_back(newHalfedge());
+    EdgeIter new_e = newEdge();
+    FaceIter f1 = newFace();
+
+    // Reassign pointers for new components & some existing ones
+    h[f0_size]->setNeighbors(h[0], h[f0_size + 1], v[2], new_e, f);
+    h[f0_size + 1]->setNeighbors(h[2], h[f0_size], v[0], new_e, f1);
+    h[1]->next() = h[f0_size];
+    h[f0_size - 1]->next() = h[f0_size + 1];
+    v[2]->halfedge() = h[f0_size];
+    v[0]->halfedge() = h[f0_size + 1];
+    new_e->halfedge() = h[f0_size];
+    f->halfedge() = h[f0_size];
+    f1->halfedge() = h[f0_size + 1];
+
+    hiter = h[0];
+    do {
+      hiter->face() = f;
+      hiter = hiter->next();
+    } while(hiter != h[0]);
+
+    hiter = h[2];
+    do {
+      hiter->face() = f1;
+      hiter = hiter->next();
+    } while(hiter != h[2]);
+
+    splitPolygon(f1);
   }
 
   EdgeRecord::EdgeRecord(EdgeIter& _edge) : edge(_edge) {

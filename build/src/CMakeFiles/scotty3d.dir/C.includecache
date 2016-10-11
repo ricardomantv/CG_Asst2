@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c
+getopt.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.h
+string.h
+-
+stdio.h
+-
+
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.h
+

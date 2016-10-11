@@ -1,0 +1,14 @@
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/libglew.a
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/include/GL/glew.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/include/GL/glxew.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/include/GL/wglew.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/include/GLFW/glfw3.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/include/GLFW/glfw3native.h
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/cmake/glfw/glfw3Config.cmake
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/cmake/glfw/glfw3ConfigVersion.cmake
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/cmake/glfw/glfwTargets.cmake
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/cmake/glfw/glfwTargets-noconfig.cmake
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/pkgconfig/glfw3.pc
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/libglfw3.a
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/lib/libCMU462.a
+/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/scotty3d
