@@ -40,7 +40,7 @@ file(INSTALL DESTINATION "/Users/ricardo/Documents/school/junior/fall/computer g
   if(EXISTS "$ENV{DESTDIR}/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/scotty3d" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/scotty3d")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "$ENV{DESTDIR}/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/scotty3d")
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" "$ENV{DESTDIR}/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/scotty3d")
     endif()
   endif()
 endif()

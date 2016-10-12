@@ -60,15 +60,15 @@ include CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.o: ../CMU462/deps/glfw/src/context.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c" > CMakeFiles/glfw.dir/context.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c" > CMakeFiles/glfw.dir/context.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c" -o CMakeFiles/glfw.dir/context.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/context.c" -o CMakeFiles/glfw.dir/context.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.o.requires:
 
@@ -84,15 +84,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/context.c.o.provides.build: CMU462/deps
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.o: ../CMU462/deps/glfw/src/init.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c" > CMakeFiles/glfw.dir/init.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c" > CMakeFiles/glfw.dir/init.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c" -o CMakeFiles/glfw.dir/init.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/init.c" -o CMakeFiles/glfw.dir/init.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.o.requires:
 
@@ -108,15 +108,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/init.c.o.provides.build: CMU462/deps/gl
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.o: ../CMU462/deps/glfw/src/input.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c" > CMakeFiles/glfw.dir/input.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c" > CMakeFiles/glfw.dir/input.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c" -o CMakeFiles/glfw.dir/input.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/input.c" -o CMakeFiles/glfw.dir/input.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.o.requires:
 
@@ -132,15 +132,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/input.c.o.provides.build: CMU462/deps/g
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: ../CMU462/deps/glfw/src/monitor.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c" > CMakeFiles/glfw.dir/monitor.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c" > CMakeFiles/glfw.dir/monitor.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c" -o CMakeFiles/glfw.dir/monitor.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/monitor.c" -o CMakeFiles/glfw.dir/monitor.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.requires:
 
@@ -156,15 +156,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.provides.build: CMU462/deps
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.o: ../CMU462/deps/glfw/src/window.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c" > CMakeFiles/glfw.dir/window.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c" > CMakeFiles/glfw.dir/window.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c" -o CMakeFiles/glfw.dir/window.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/window.c" -o CMakeFiles/glfw.dir/window.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.o.requires:
 
@@ -180,15 +180,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/window.c.o.provides.build: CMU462/deps/
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o: ../CMU462/deps/glfw/src/cocoa_init.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_init.m.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m" > CMakeFiles/glfw.dir/cocoa_init.m.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m" > CMakeFiles/glfw.dir/cocoa_init.m.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m" -o CMakeFiles/glfw.dir/cocoa_init.m.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_init.m" -o CMakeFiles/glfw.dir/cocoa_init.m.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.requires:
 
@@ -204,15 +204,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.provides.build: CMU462/d
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: ../CMU462/deps/glfw/src/cocoa_monitor.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m" > CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m" > CMakeFiles/glfw.dir/cocoa_monitor.m.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m" -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_monitor.m" -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.requires:
 
@@ -228,15 +228,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.provides.build: CMU46
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o: ../CMU462/deps/glfw/src/cocoa_window.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_window.m.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m" > CMakeFiles/glfw.dir/cocoa_window.m.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m" > CMakeFiles/glfw.dir/cocoa_window.m.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m" -o CMakeFiles/glfw.dir/cocoa_window.m.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/cocoa_window.m" -o CMakeFiles/glfw.dir/cocoa_window.m.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.requires:
 
@@ -252,15 +252,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.provides.build: CMU462
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.o: ../CMU462/deps/glfw/src/iokit_joystick.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/iokit_joystick.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/iokit_joystick.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/iokit_joystick.m.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m" > CMakeFiles/glfw.dir/iokit_joystick.m.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m" > CMakeFiles/glfw.dir/iokit_joystick.m.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/iokit_joystick.m.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m" -o CMakeFiles/glfw.dir/iokit_joystick.m.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/iokit_joystick.m" -o CMakeFiles/glfw.dir/iokit_joystick.m.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.o.requires:
 
@@ -276,15 +276,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/iokit_joystick.m.o.provides.build: CMU4
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.o: ../CMU462/deps/glfw/src/mach_time.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/mach_time.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/mach_time.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/mach_time.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c" > CMakeFiles/glfw.dir/mach_time.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c" > CMakeFiles/glfw.dir/mach_time.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/mach_time.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c" -o CMakeFiles/glfw.dir/mach_time.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/mach_time.c" -o CMakeFiles/glfw.dir/mach_time.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.o.requires:
 
@@ -300,15 +300,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/mach_time.c.o.provides.build: CMU462/de
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o: ../CMU462/deps/glfw/src/posix_tls.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/posix_tls.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/posix_tls.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_tls.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c" > CMakeFiles/glfw.dir/posix_tls.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c" > CMakeFiles/glfw.dir/posix_tls.c.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_tls.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c" -o CMakeFiles/glfw.dir/posix_tls.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/posix_tls.c" -o CMakeFiles/glfw.dir/posix_tls.c.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o.requires:
 
@@ -324,15 +324,15 @@ CMU462/deps/glfw/src/CMakeFiles/glfw.dir/posix_tls.c.o.provides.build: CMU462/de
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: CMU462/deps/glfw/src/CMakeFiles/glfw.dir/flags.make
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: ../CMU462/deps/glfw/src/nsgl_context.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m"
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/nsgl_context.m.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m" > CMakeFiles/glfw.dir/nsgl_context.m.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m" > CMakeFiles/glfw.dir/nsgl_context.m.i
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m" -o CMakeFiles/glfw.dir/nsgl_context.m.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glfw/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glfw/src/nsgl_context.m" -o CMakeFiles/glfw.dir/nsgl_context.m.s
 
 CMU462/deps/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.requires:
 

@@ -60,15 +60,15 @@ include CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.o: ../CMU462/src/vector2D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector2D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector2D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/vector2D.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp" > CMakeFiles/CMU462.dir/vector2D.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp" > CMakeFiles/CMU462.dir/vector2D.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/vector2D.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp" -o CMakeFiles/CMU462.dir/vector2D.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector2D.cpp" -o CMakeFiles/CMU462.dir/vector2D.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMU462/src/CMakeFiles/CMU462.dir/vector2D.cpp.o.provides.build: CMU462/src/CMake
 CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.o: ../CMU462/src/vector3D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector3D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector3D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/vector3D.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp" > CMakeFiles/CMU462.dir/vector3D.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp" > CMakeFiles/CMU462.dir/vector3D.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/vector3D.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp" -o CMakeFiles/CMU462.dir/vector3D.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector3D.cpp" -o CMakeFiles/CMU462.dir/vector3D.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMU462/src/CMakeFiles/CMU462.dir/vector3D.cpp.o.provides.build: CMU462/src/CMake
 CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.o: ../CMU462/src/vector4D.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector4D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/vector4D.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/vector4D.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp" > CMakeFiles/CMU462.dir/vector4D.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp" > CMakeFiles/CMU462.dir/vector4D.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/vector4D.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp" -o CMakeFiles/CMU462.dir/vector4D.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/vector4D.cpp" -o CMakeFiles/CMU462.dir/vector4D.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMU462/src/CMakeFiles/CMU462.dir/vector4D.cpp.o.provides.build: CMU462/src/CMake
 CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.o: ../CMU462/src/matrix3x3.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/matrix3x3.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/matrix3x3.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/matrix3x3.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp" > CMakeFiles/CMU462.dir/matrix3x3.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp" > CMakeFiles/CMU462.dir/matrix3x3.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/matrix3x3.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp" -o CMakeFiles/CMU462.dir/matrix3x3.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix3x3.cpp" -o CMakeFiles/CMU462.dir/matrix3x3.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMU462/src/CMakeFiles/CMU462.dir/matrix3x3.cpp.o.provides.build: CMU462/src/CMak
 CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.o: ../CMU462/src/matrix4x4.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/matrix4x4.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/matrix4x4.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/matrix4x4.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp" > CMakeFiles/CMU462.dir/matrix4x4.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp" > CMakeFiles/CMU462.dir/matrix4x4.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/matrix4x4.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp" -o CMakeFiles/CMU462.dir/matrix4x4.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/matrix4x4.cpp" -o CMakeFiles/CMU462.dir/matrix4x4.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMU462/src/CMakeFiles/CMU462.dir/matrix4x4.cpp.o.provides.build: CMU462/src/CMak
 CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.o: ../CMU462/src/quaternion.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/quaternion.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/quaternion.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/quaternion.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp" > CMakeFiles/CMU462.dir/quaternion.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp" > CMakeFiles/CMU462.dir/quaternion.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/quaternion.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp" -o CMakeFiles/CMU462.dir/quaternion.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/quaternion.cpp" -o CMakeFiles/CMU462.dir/quaternion.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMU462/src/CMakeFiles/CMU462.dir/quaternion.cpp.o.provides.build: CMU462/src/CMa
 CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.o: ../CMU462/src/complex.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/complex.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/complex.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/complex.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp" > CMakeFiles/CMU462.dir/complex.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp" > CMakeFiles/CMU462.dir/complex.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/complex.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp" -o CMakeFiles/CMU462.dir/complex.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/complex.cpp" -o CMakeFiles/CMU462.dir/complex.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMU462/src/CMakeFiles/CMU462.dir/complex.cpp.o.provides.build: CMU462/src/CMakeF
 CMU462/src/CMakeFiles/CMU462.dir/color.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/color.cpp.o: ../CMU462/src/color.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/color.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/color.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/color.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/color.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp" > CMakeFiles/CMU462.dir/color.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp" > CMakeFiles/CMU462.dir/color.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/color.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp" -o CMakeFiles/CMU462.dir/color.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/color.cpp" -o CMakeFiles/CMU462.dir/color.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/color.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMU462/src/CMakeFiles/CMU462.dir/color.cpp.o.provides.build: CMU462/src/CMakeFil
 CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.o: ../CMU462/src/spectrum.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/spectrum.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/spectrum.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/spectrum.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp" > CMakeFiles/CMU462.dir/spectrum.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp" > CMakeFiles/CMU462.dir/spectrum.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/spectrum.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp" -o CMakeFiles/CMU462.dir/spectrum.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/spectrum.cpp" -o CMakeFiles/CMU462.dir/spectrum.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMU462/src/CMakeFiles/CMU462.dir/spectrum.cpp.o.provides.build: CMU462/src/CMake
 CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.o: ../CMU462/src/osdtext.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/osdtext.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/osdtext.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/osdtext.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp" > CMakeFiles/CMU462.dir/osdtext.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp" > CMakeFiles/CMU462.dir/osdtext.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/osdtext.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp" -o CMakeFiles/CMU462.dir/osdtext.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdtext.cpp" -o CMakeFiles/CMU462.dir/osdtext.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMU462/src/CMakeFiles/CMU462.dir/osdtext.cpp.o.provides.build: CMU462/src/CMakeF
 CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.o: ../CMU462/src/osdfont.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/osdfont.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/osdfont.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/osdfont.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp" > CMakeFiles/CMU462.dir/osdfont.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp" > CMakeFiles/CMU462.dir/osdfont.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/osdfont.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp" -o CMakeFiles/CMU462.dir/osdfont.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/osdfont.cpp" -o CMakeFiles/CMU462.dir/osdfont.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMU462/src/CMakeFiles/CMU462.dir/osdfont.cpp.o.provides.build: CMU462/src/CMakeF
 CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.o: ../CMU462/src/viewer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/viewer.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/viewer.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/viewer.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp" > CMakeFiles/CMU462.dir/viewer.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp" > CMakeFiles/CMU462.dir/viewer.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/viewer.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp" -o CMakeFiles/CMU462.dir/viewer.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/viewer.cpp" -o CMakeFiles/CMU462.dir/viewer.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMU462/src/CMakeFiles/CMU462.dir/viewer.cpp.o.provides.build: CMU462/src/CMakeFi
 CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.o: ../CMU462/src/base64.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/base64.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/base64.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/base64.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp" > CMakeFiles/CMU462.dir/base64.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp" > CMakeFiles/CMU462.dir/base64.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/base64.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp" -o CMakeFiles/CMU462.dir/base64.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/base64.cpp" -o CMakeFiles/CMU462.dir/base64.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.o.requires:
 
@@ -372,15 +372,15 @@ CMU462/src/CMakeFiles/CMU462.dir/base64.cpp.o.provides.build: CMU462/src/CMakeFi
 CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.o: ../CMU462/src/lodepng.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/lodepng.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/lodepng.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/lodepng.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp" > CMakeFiles/CMU462.dir/lodepng.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp" > CMakeFiles/CMU462.dir/lodepng.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/lodepng.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp" -o CMakeFiles/CMU462.dir/lodepng.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/lodepng.cpp" -o CMakeFiles/CMU462.dir/lodepng.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.o.requires:
 
@@ -396,15 +396,15 @@ CMU462/src/CMakeFiles/CMU462.dir/lodepng.cpp.o.provides.build: CMU462/src/CMakeF
 CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.o: CMU462/src/CMakeFiles/CMU462.dir/flags.make
 CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.o: ../CMU462/src/tinyxml2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/tinyxml2.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMU462.dir/tinyxml2.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp"
 
 CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMU462.dir/tinyxml2.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp" > CMakeFiles/CMU462.dir/tinyxml2.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp" > CMakeFiles/CMU462.dir/tinyxml2.cpp.i
 
 CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMU462.dir/tinyxml2.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp" -o CMakeFiles/CMU462.dir/tinyxml2.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/src/tinyxml2.cpp" -o CMakeFiles/CMU462.dir/tinyxml2.cpp.s
 
 CMU462/src/CMakeFiles/CMU462.dir/tinyxml2.cpp.o.requires:
 

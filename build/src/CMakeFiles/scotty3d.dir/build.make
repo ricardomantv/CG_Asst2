@@ -60,15 +60,15 @@ include src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/collada.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/collada.cpp.o: ../src/collada/collada.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/collada.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/collada.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/collada.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/collada.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/collada.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp" > CMakeFiles/scotty3d.dir/collada/collada.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp" > CMakeFiles/scotty3d.dir/collada/collada.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/collada.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/collada.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp" -o CMakeFiles/scotty3d.dir/collada/collada.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/collada.cpp" -o CMakeFiles/scotty3d.dir/collada/collada.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/collada.cpp.o.requires:
 
@@ -84,15 +84,15 @@ src/CMakeFiles/scotty3d.dir/collada/collada.cpp.o.provides.build: src/CMakeFiles
 src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o: ../src/collada/camera_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/camera_info.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp" > CMakeFiles/scotty3d.dir/collada/camera_info.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp" > CMakeFiles/scotty3d.dir/collada/camera_info.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/camera_info.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp" -o CMakeFiles/scotty3d.dir/collada/camera_info.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/camera_info.cpp" -o CMakeFiles/scotty3d.dir/collada/camera_info.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o.requires:
 
@@ -108,15 +108,15 @@ src/CMakeFiles/scotty3d.dir/collada/camera_info.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.o: ../src/collada/light_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/light_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/light_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/light_info.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp" > CMakeFiles/scotty3d.dir/collada/light_info.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp" > CMakeFiles/scotty3d.dir/collada/light_info.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/light_info.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp" -o CMakeFiles/scotty3d.dir/collada/light_info.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/light_info.cpp" -o CMakeFiles/scotty3d.dir/collada/light_info.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.o.requires:
 
@@ -132,15 +132,15 @@ src/CMakeFiles/scotty3d.dir/collada/light_info.cpp.o.provides.build: src/CMakeFi
 src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o: ../src/collada/sphere_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp" > CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp" > CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp" -o CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/sphere_info.cpp" -o CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o.requires:
 
@@ -156,15 +156,15 @@ src/CMakeFiles/scotty3d.dir/collada/sphere_info.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o: ../src/collada/polymesh_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp" > CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp" > CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp" -o CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/polymesh_info.cpp" -o CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o.requires:
 
@@ -180,15 +180,15 @@ src/CMakeFiles/scotty3d.dir/collada/polymesh_info.cpp.o.provides.build: src/CMak
 src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.o: ../src/collada/material_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/material_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/collada/material_info.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp"
 
 src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/collada/material_info.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp" > CMakeFiles/scotty3d.dir/collada/material_info.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp" > CMakeFiles/scotty3d.dir/collada/material_info.cpp.i
 
 src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/collada/material_info.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp" -o CMakeFiles/scotty3d.dir/collada/material_info.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/collada/material_info.cpp" -o CMakeFiles/scotty3d.dir/collada/material_info.cpp.s
 
 src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.o.requires:
 
@@ -204,15 +204,15 @@ src/CMakeFiles/scotty3d.dir/collada/material_info.cpp.o.provides.build: src/CMak
 src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o: ../src/dynamic_scene/mesh.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp"
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.i
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/mesh.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.s
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o.requires:
 
@@ -228,15 +228,15 @@ src/CMakeFiles/scotty3d.dir/dynamic_scene/mesh.cpp.o.provides.build: src/CMakeFi
 src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o: ../src/dynamic_scene/scene.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp"
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.i
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/scene.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.s
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o.requires:
 
@@ -252,15 +252,15 @@ src/CMakeFiles/scotty3d.dir/dynamic_scene/scene.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o: ../src/dynamic_scene/sphere.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp"
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.i
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/sphere.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.s
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o.requires:
 
@@ -276,15 +276,15 @@ src/CMakeFiles/scotty3d.dir/dynamic_scene/sphere.cpp.o.provides.build: src/CMake
 src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o: ../src/dynamic_scene/widgets.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp"
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp" > CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.i
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/dynamic_scene/widgets.cpp" -o CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.s
 
 src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o.requires:
 
@@ -300,15 +300,15 @@ src/CMakeFiles/scotty3d.dir/dynamic_scene/widgets.cpp.o.provides.build: src/CMak
 src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o: ../src/static_scene/sphere.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp"
 
 src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp" > CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp" > CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.i
 
 src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp" -o CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/sphere.cpp" -o CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.s
 
 src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o.requires:
 
@@ -324,15 +324,15 @@ src/CMakeFiles/scotty3d.dir/static_scene/sphere.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o: ../src/static_scene/triangle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp"
 
 src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp" > CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp" > CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.i
 
 src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp" -o CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/triangle.cpp" -o CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.s
 
 src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o.requires:
 
@@ -348,15 +348,15 @@ src/CMakeFiles/scotty3d.dir/static_scene/triangle.cpp.o.provides.build: src/CMak
 src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.o: ../src/static_scene/object.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/object.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/object.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp"
 
 src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/static_scene/object.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp" > CMakeFiles/scotty3d.dir/static_scene/object.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp" > CMakeFiles/scotty3d.dir/static_scene/object.cpp.i
 
 src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/static_scene/object.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp" -o CMakeFiles/scotty3d.dir/static_scene/object.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/object.cpp" -o CMakeFiles/scotty3d.dir/static_scene/object.cpp.s
 
 src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.o.requires:
 
@@ -372,15 +372,15 @@ src/CMakeFiles/scotty3d.dir/static_scene/object.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o: ../src/static_scene/environment_light.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp"
 
 src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp" > CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp" > CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.i
 
 src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp" -o CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/environment_light.cpp" -o CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.s
 
 src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o.requires:
 
@@ -396,15 +396,15 @@ src/CMakeFiles/scotty3d.dir/static_scene/environment_light.cpp.o.provides.build:
 src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.o: ../src/static_scene/light.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/light.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/static_scene/light.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp"
 
 src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/static_scene/light.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp" > CMakeFiles/scotty3d.dir/static_scene/light.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp" > CMakeFiles/scotty3d.dir/static_scene/light.cpp.i
 
 src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/static_scene/light.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp" -o CMakeFiles/scotty3d.dir/static_scene/light.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/static_scene/light.cpp" -o CMakeFiles/scotty3d.dir/static_scene/light.cpp.s
 
 src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.o.requires:
 
@@ -420,15 +420,15 @@ src/CMakeFiles/scotty3d.dir/static_scene/light.cpp.o.provides.build: src/CMakeFi
 src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o: ../src/halfEdgeMesh.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp"
 
 src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp" > CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp" > CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.i
 
 src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp" -o CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/halfEdgeMesh.cpp" -o CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.s
 
 src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o.requires:
 
@@ -444,15 +444,15 @@ src/CMakeFiles/scotty3d.dir/halfEdgeMesh.cpp.o.provides.build: src/CMakeFiles/sc
 src/CMakeFiles/scotty3d.dir/meshEdit.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/meshEdit.cpp.o: ../src/meshEdit.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/scotty3d.dir/meshEdit.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/meshEdit.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/meshEdit.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp"
 
 src/CMakeFiles/scotty3d.dir/meshEdit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/meshEdit.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp" > CMakeFiles/scotty3d.dir/meshEdit.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp" > CMakeFiles/scotty3d.dir/meshEdit.cpp.i
 
 src/CMakeFiles/scotty3d.dir/meshEdit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/meshEdit.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp" -o CMakeFiles/scotty3d.dir/meshEdit.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/meshEdit.cpp" -o CMakeFiles/scotty3d.dir/meshEdit.cpp.s
 
 src/CMakeFiles/scotty3d.dir/meshEdit.cpp.o.requires:
 
@@ -468,15 +468,15 @@ src/CMakeFiles/scotty3d.dir/meshEdit.cpp.o.provides.build: src/CMakeFiles/scotty
 src/CMakeFiles/scotty3d.dir/bvh.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/bvh.cpp.o: ../src/bvh.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/scotty3d.dir/bvh.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bvh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bvh.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp"
 
 src/CMakeFiles/scotty3d.dir/bvh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/bvh.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp" > CMakeFiles/scotty3d.dir/bvh.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp" > CMakeFiles/scotty3d.dir/bvh.cpp.i
 
 src/CMakeFiles/scotty3d.dir/bvh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/bvh.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp" -o CMakeFiles/scotty3d.dir/bvh.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bvh.cpp" -o CMakeFiles/scotty3d.dir/bvh.cpp.s
 
 src/CMakeFiles/scotty3d.dir/bvh.cpp.o.requires:
 
@@ -492,15 +492,15 @@ src/CMakeFiles/scotty3d.dir/bvh.cpp.o.provides.build: src/CMakeFiles/scotty3d.di
 src/CMakeFiles/scotty3d.dir/bbox.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/bbox.cpp.o: ../src/bbox.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/scotty3d.dir/bbox.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bbox.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bbox.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp"
 
 src/CMakeFiles/scotty3d.dir/bbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/bbox.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp" > CMakeFiles/scotty3d.dir/bbox.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp" > CMakeFiles/scotty3d.dir/bbox.cpp.i
 
 src/CMakeFiles/scotty3d.dir/bbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/bbox.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp" -o CMakeFiles/scotty3d.dir/bbox.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bbox.cpp" -o CMakeFiles/scotty3d.dir/bbox.cpp.s
 
 src/CMakeFiles/scotty3d.dir/bbox.cpp.o.requires:
 
@@ -516,15 +516,15 @@ src/CMakeFiles/scotty3d.dir/bbox.cpp.o.provides.build: src/CMakeFiles/scotty3d.d
 src/CMakeFiles/scotty3d.dir/bsdf.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/bsdf.cpp.o: ../src/bsdf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/scotty3d.dir/bsdf.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bsdf.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/bsdf.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp"
 
 src/CMakeFiles/scotty3d.dir/bsdf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/bsdf.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp" > CMakeFiles/scotty3d.dir/bsdf.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp" > CMakeFiles/scotty3d.dir/bsdf.cpp.i
 
 src/CMakeFiles/scotty3d.dir/bsdf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/bsdf.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp" -o CMakeFiles/scotty3d.dir/bsdf.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/bsdf.cpp" -o CMakeFiles/scotty3d.dir/bsdf.cpp.s
 
 src/CMakeFiles/scotty3d.dir/bsdf.cpp.o.requires:
 
@@ -540,15 +540,15 @@ src/CMakeFiles/scotty3d.dir/bsdf.cpp.o.provides.build: src/CMakeFiles/scotty3d.d
 src/CMakeFiles/scotty3d.dir/camera.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/camera.cpp.o: ../src/camera.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/scotty3d.dir/camera.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/camera.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/camera.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp"
 
 src/CMakeFiles/scotty3d.dir/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/camera.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp" > CMakeFiles/scotty3d.dir/camera.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp" > CMakeFiles/scotty3d.dir/camera.cpp.i
 
 src/CMakeFiles/scotty3d.dir/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/camera.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp" -o CMakeFiles/scotty3d.dir/camera.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/camera.cpp" -o CMakeFiles/scotty3d.dir/camera.cpp.s
 
 src/CMakeFiles/scotty3d.dir/camera.cpp.o.requires:
 
@@ -564,15 +564,15 @@ src/CMakeFiles/scotty3d.dir/camera.cpp.o.provides.build: src/CMakeFiles/scotty3d
 src/CMakeFiles/scotty3d.dir/sampler.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/sampler.cpp.o: ../src/sampler.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/scotty3d.dir/sampler.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/sampler.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/sampler.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp"
 
 src/CMakeFiles/scotty3d.dir/sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/sampler.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp" > CMakeFiles/scotty3d.dir/sampler.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp" > CMakeFiles/scotty3d.dir/sampler.cpp.i
 
 src/CMakeFiles/scotty3d.dir/sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/sampler.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp" -o CMakeFiles/scotty3d.dir/sampler.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/sampler.cpp" -o CMakeFiles/scotty3d.dir/sampler.cpp.s
 
 src/CMakeFiles/scotty3d.dir/sampler.cpp.o.requires:
 
@@ -588,15 +588,15 @@ src/CMakeFiles/scotty3d.dir/sampler.cpp.o.provides.build: src/CMakeFiles/scotty3
 src/CMakeFiles/scotty3d.dir/pathtracer.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/pathtracer.cpp.o: ../src/pathtracer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/scotty3d.dir/pathtracer.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/pathtracer.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/pathtracer.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp"
 
 src/CMakeFiles/scotty3d.dir/pathtracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/pathtracer.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp" > CMakeFiles/scotty3d.dir/pathtracer.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp" > CMakeFiles/scotty3d.dir/pathtracer.cpp.i
 
 src/CMakeFiles/scotty3d.dir/pathtracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/pathtracer.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp" -o CMakeFiles/scotty3d.dir/pathtracer.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/pathtracer.cpp" -o CMakeFiles/scotty3d.dir/pathtracer.cpp.s
 
 src/CMakeFiles/scotty3d.dir/pathtracer.cpp.o.requires:
 
@@ -612,15 +612,15 @@ src/CMakeFiles/scotty3d.dir/pathtracer.cpp.o.provides.build: src/CMakeFiles/scot
 src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o: ../src/misc/sphere_drawing.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp"
 
 src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp" > CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp" > CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.i
 
 src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp" -o CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/misc/sphere_drawing.cpp" -o CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.s
 
 src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o.requires:
 
@@ -636,15 +636,15 @@ src/CMakeFiles/scotty3d.dir/misc/sphere_drawing.cpp.o.provides.build: src/CMakeF
 src/CMakeFiles/scotty3d.dir/getopt.c.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/getopt.c.o: ../src/getopt.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/scotty3d.dir/getopt.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scotty3d.dir/getopt.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scotty3d.dir/getopt.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c"
 
 src/CMakeFiles/scotty3d.dir/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scotty3d.dir/getopt.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c" > CMakeFiles/scotty3d.dir/getopt.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c" > CMakeFiles/scotty3d.dir/getopt.c.i
 
 src/CMakeFiles/scotty3d.dir/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scotty3d.dir/getopt.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c" -o CMakeFiles/scotty3d.dir/getopt.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/getopt.c" -o CMakeFiles/scotty3d.dir/getopt.c.s
 
 src/CMakeFiles/scotty3d.dir/getopt.c.o.requires:
 
@@ -660,15 +660,15 @@ src/CMakeFiles/scotty3d.dir/getopt.c.o.provides.build: src/CMakeFiles/scotty3d.d
 src/CMakeFiles/scotty3d.dir/application.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/application.cpp.o: ../src/application.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/scotty3d.dir/application.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/application.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/application.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp"
 
 src/CMakeFiles/scotty3d.dir/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/application.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp" > CMakeFiles/scotty3d.dir/application.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp" > CMakeFiles/scotty3d.dir/application.cpp.i
 
 src/CMakeFiles/scotty3d.dir/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/application.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp" -o CMakeFiles/scotty3d.dir/application.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/application.cpp" -o CMakeFiles/scotty3d.dir/application.cpp.s
 
 src/CMakeFiles/scotty3d.dir/application.cpp.o.requires:
 
@@ -684,15 +684,15 @@ src/CMakeFiles/scotty3d.dir/application.cpp.o.provides.build: src/CMakeFiles/sco
 src/CMakeFiles/scotty3d.dir/main.cpp.o: src/CMakeFiles/scotty3d.dir/flags.make
 src/CMakeFiles/scotty3d.dir/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/scotty3d.dir/main.cpp.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/main.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scotty3d.dir/main.cpp.o -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp"
 
 src/CMakeFiles/scotty3d.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scotty3d.dir/main.cpp.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp" > CMakeFiles/scotty3d.dir/main.cpp.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp" > CMakeFiles/scotty3d.dir/main.cpp.i
 
 src/CMakeFiles/scotty3d.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scotty3d.dir/main.cpp.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp" -o CMakeFiles/scotty3d.dir/main.cpp.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/src" && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/src/main.cpp" -o CMakeFiles/scotty3d.dir/main.cpp.s
 
 src/CMakeFiles/scotty3d.dir/main.cpp.o.requires:
 

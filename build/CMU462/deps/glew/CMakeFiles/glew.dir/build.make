@@ -60,15 +60,15 @@ include CMU462/deps/glew/CMakeFiles/glew.dir/flags.make
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.o: CMU462/deps/glew/CMakeFiles/glew.dir/flags.make
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.o: ../CMU462/deps/glew/src/glew.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glew.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c"
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glew.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c" > CMakeFiles/glew.dir/src/glew.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c" > CMakeFiles/glew.dir/src/glew.c.i
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glew.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c" -o CMakeFiles/glew.dir/src/glew.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glew.c" -o CMakeFiles/glew.dir/src/glew.c.s
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.o.requires:
 
@@ -84,15 +84,15 @@ CMU462/deps/glew/CMakeFiles/glew.dir/src/glew.c.o.provides.build: CMU462/deps/gl
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o: CMU462/deps/glew/CMakeFiles/glew.dir/flags.make
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o: ../CMU462/deps/glew/src/glewinfo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glewinfo.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/glewinfo.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c"
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/glewinfo.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c" > CMakeFiles/glew.dir/src/glewinfo.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c" > CMakeFiles/glew.dir/src/glewinfo.c.i
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/glewinfo.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c" -o CMakeFiles/glew.dir/src/glewinfo.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/glewinfo.c" -o CMakeFiles/glew.dir/src/glewinfo.c.s
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o.requires:
 
@@ -108,15 +108,15 @@ CMU462/deps/glew/CMakeFiles/glew.dir/src/glewinfo.c.o.provides.build: CMU462/dep
 CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o: CMU462/deps/glew/CMakeFiles/glew.dir/flags.make
 CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o: ../CMU462/deps/glew/src/visualinfo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/visualinfo.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c"
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/glew.dir/src/visualinfo.c.o   -c "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c"
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/src/visualinfo.c.i"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c" > CMakeFiles/glew.dir/src/visualinfo.c.i
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c" > CMakeFiles/glew.dir/src/visualinfo.c.i
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/src/visualinfo.c.s"
-	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c" -o CMakeFiles/glew.dir/src/visualinfo.c.s
+	cd "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/build/CMU462/deps/glew" && /Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/ricardo/Documents/school/junior/fall/computer graphics/2_meshedit/CMU462/deps/glew/src/visualinfo.c" -o CMakeFiles/glew.dir/src/visualinfo.c.s
 
 CMU462/deps/glew/CMakeFiles/glew.dir/src/visualinfo.c.o.requires:
 

@@ -11,7 +11,107 @@ namespace CMU462 {
     // This method should split the given edge and return an iterator to the
     // newly inserted vertex. The halfedge of this vertex should point along
     // the edge that was split, rather than the new edges.
-    return VertexIter();
+
+    // Collect halfedges, edges, vertices, faces
+    std::vector<HalfedgeIter> h;
+    h.push_back(e0->halfedge());
+    std::vector<EdgeIter> e;
+    e.push_back(e0);
+    std::vector<VertexIter> v;
+    v.push_back(h[0]->vertex());
+
+    // Collect halfedges, edges, vertices of first face
+    HalfedgeIter hiter = h[0]->next();
+    do {
+      h.push_back(hiter);
+      e.push_back(hiter->edge());
+      v.push_back(hiter->vertex());
+      hiter = hiter->next();
+    } while(hiter != h[0]);
+
+    // Collect halfedges, edges, vertices of second face
+    hiter = h[0]->twin();
+    do {
+      h.push_back(hiter);
+      if(hiter != h[0]->twin()) {
+        // Prevents e0 from being added to e again
+        e.push_back(hiter->edge());
+        if(hiter != h[0]->twin()->next()) {
+          // Prevents v0 and v1 from being added to v again
+          v.push_back(hiter->vertex());
+        }
+      }
+      hiter = hiter->next();
+    } while(hiter != h[0]->twin());
+
+    // Collect outside halfedges
+    for(int i = 1; i < 6; i++) {
+      if(i != 3) {
+        // Prevent h0 from being added as outside edge
+        h.push_back(h[i]->twin());
+      }
+    }
+
+    FaceIter f0 = h[0]->face();
+    FaceIter f1 = h[0]->twin()->face();
+
+    // Create new vertex, edges, halfedges, faces
+    v.push_back(newVertex());
+    e.push_back(newEdge());
+    e.push_back(newEdge());
+    e.push_back(newEdge());
+    FaceIter f2 = newFace();
+    FaceIter f3 = newFace();
+    for(int i = 0; i < 6; i++) {
+      h.push_back(newHalfedge());
+    }
+
+    // Set position of new vertex
+    Vector3D pos = e[0]->centroid();
+    v[4]->position = pos;
+
+    // Reassign halfedges (outside halfedges only reassign twins)
+    h[0]->setNeighbors(h[1], h[3], v[4], e[0], f0);
+    h[1]->setNeighbors(h[2], h[6], v[1], e[1], f0);
+    h[2]->setNeighbors(h[0], h[11], v[2], e[6], f0);
+    h[3]->setNeighbors(h[4], h[0], v[1], e[0], f1);
+    h[4]->setNeighbors(h[5], h[15], v[4], e[7], f1);
+    h[5]->setNeighbors(h[3], h[9], v[3], e[4], f1);
+    h[6]->twin() = h[1];
+    h[7]->twin() = h[12];
+    h[8]->twin() = h[14];
+    h[9]->twin() = h[5];
+    h[10]->setNeighbors(h[11], h[13], v[0], e[5], f2);
+    h[11]->setNeighbors(h[12], h[2], v[4], e[6], f2);
+    h[12]->setNeighbors(h[10], h[7], v[2], e[2], f2);
+    h[13]->setNeighbors(h[14], h[10], v[4], e[5], f3);
+    h[14]->setNeighbors(h[15], h[8], v[0], e[3], f3);
+    h[15]->setNeighbors(h[13], h[4], v[3], e[7], f3);
+
+    // Reassign edges
+    e[0]->halfedge() = h[0];
+    e[1]->halfedge() = h[1];
+    e[2]->halfedge() = h[12];
+    e[3]->halfedge() = h[14];
+    e[4]->halfedge() = h[5];
+    e[5]->halfedge() = h[10];
+    e[6]->halfedge() = h[2];
+    e[7]->halfedge() = h[15];
+
+    // Reassign vertices
+    v[0]->halfedge() = h[14];
+    v[1]->halfedge() = h[1];
+    v[2]->halfedge() = h[12];
+    v[3]->halfedge() = h[5];
+    v[4]->halfedge() = h[0];
+
+    // Reassign faces
+    f0->halfedge() = h[0];
+    f1->halfedge() = h[3];
+    f2->halfedge() = h[10];
+    f3->halfedge() = h[13];
+
+    return v[4];
   }
 
   VertexIter HalfedgeMesh::collapseEdge(EdgeIter e) {
@@ -462,9 +562,9 @@ namespace CMU462 {
     std::vector<HalfedgeIter> h;
     h.push_back(f->halfedge());
     std::vector<EdgeIter> e;
-    e.push_back(h->edge());
+    e.push_back(h[0]->edge());
     std::vector<VertexIter> v;
-    v.push_back(h->vertex());
+    v.push_back(h[0]->vertex());
     std::vector<FaceIter> fs;
     fs.push_back(f);
 
@@ -505,6 +605,19 @@ namespace CMU462 {
     Size f0s2 = f0_size * f0_size;
     for(int i = 0; i < f0s2; i++) {
       h[i]->next() = h[(i + f0_size) % f0s2];
+    }
+
+    for(int i = f0s2; i < f0s2 + f0_size; i++) {
+      h[i]->setNeighbors(h[(i + 1) % f0_size + f0s2],
+                         h[i - (f0_size * 2)],
+                         v[i % f0_size + f0_size],
+                         e[i - (f0_size * 2)],
+                         fs[fs.size() - 1]);
+    }
+
+    // Reassign edge values
+    for(int i = 0; i < e.size(); i++) {
+      e[i]->halfedge() = h[i];
     }
 
     return fs[fs.size() - 1];
