@@ -359,13 +359,22 @@ namespace CMU462 {
   {
     // TODO For each vertex, assign Vertex::newPosition to
     // its original position, Vertex::position.
+    for(VertexIter viter = verticesBegin(); viter != verticesEnd(); viter++) {
+      viter->newPosition = viter->position;
+    }
 
     // TODO For each edge, assign the midpoint of the two original
     // positions to Edge::newPosition.
+    for(EdgeIter eiter = edgesBegin(); eiter != edgesEnd(); eiter++) {
+      eiter->newPosition = eiter->centroid();
+    }
 
     // TODO For each face, assign the centroid (i.e., arithmetic mean)
     // of the original vertex positions to Face::newPosition.  Note
     // that in general, NOT all faces will be triangles!
+    for(FaceIter fiter = facesBegin(); fiter != facesEnd(); fiter++) {
+      fiter->newPosition = fiter->centroid();
+    }
   }
 
   /**
@@ -385,10 +394,58 @@ namespace CMU462 {
     // rules.  (These rules are outlined in the Developer Manual.)
 
     // TODO face
+    for(FaceIter fiter = facesBegin(); fiter != facesEnd(); fiter++) {
+      fiter->newPosition = fiter->centroid();
+    }
 
     // TODO edges
+    for(EdgeIter eiter = edgesBegin(); eiter != edgesEnd(); eiter++) {
+      Vector3D edge_avg = eiter->centroid();
+      Vector3D f1_avg = eiter->halfedge()->face()->centroid();
+      Vector3D f2_avg = eiter->halfedge()->twin()->face()->centroid();
+      float x_avg = (edge_avg.x + f1_avg.x + f2_avg.x) / 3.0f;
+      float y_avg = (edge_avg.y + f1_avg.y + f2_avg.y) / 3.0f;
+      float z_avg = (edge_avg.z + f1_avg.z + f2_avg.z) / 3.0f;
+      eiter->newPosition = Vector3D(x_avg, y_avg, z_avg);
+    }
 
     // TODO vertices
+    for(VertexIter viter = verticesBegin(); viter != verticesEnd(); viter++) {
+      HalfedgeIter h = viter->halfedge();
+      std::vector<Vector3D> edge_pos;
+      std::vector<Vector3D> face_pos;
+      // Collect average points of surrounding edges and faces
+      do {
+        edge_pos.push_back(h->edge()->centroid());
+        face_pos.push_back(h->face()->centroid());
+        h = h->twin()->next();
+      } while(h != viter->halfedge());
+
+      // Calculate Q (avg face), R (avg edge), S (vertex)
+      Vector3D Q = Vector3D(0.0f, 0.0f, 0.0f);
+      size_t f_size = face_pos.size();
+      for(int i = 0; i < f_size; i++) {
+        Q.x += face_pos[i].x;
+        Q.y += face_pos[i].y;
+        Q.z += face_pos[i].z;
+      }
+      Q /= f_size;
+
+      Vector3D R = Vector3D(0.0f, 0.0f, 0.0f);
+      size_t e_size = edge_pos.size();
+      for(int i = 0; i < e_size; i++) {
+        R.x += edge_pos[i].x;
+        R.y += edge_pos[i].y;
+        R.z += edge_pos[i].z;
+      }
+      R /= e_size;
+
+      Vector3D S = viter->centroid();
+      Size n = viter->degree();
+
+      Vector3D newPos = (Q + 2 * R + (n - 3) * S) / n;
+      viter->newPosition = newPos;
+    }
   }
 
   /**
@@ -401,12 +458,25 @@ namespace CMU462 {
   {
     // TODO Start a counter at zero; if you like, you can use the
     // "Index" type (defined in halfedgeMesh.h)
+    Index counter = 0;
 
     // TODO Iterate over vertices, assigning values to Vertex::index
+    for(VertexIter viter = verticesBegin(); viter != verticesEnd(); viter++) {
+      viter->index = counter;
+      counter++;
+    }
 
     // TODO Iterate over edges, assigning values to Edge::index
+    for(EdgeIter eiter = edgesBegin(); eiter != edgesEnd(); eiter++) {
+      eiter->index = counter;
+      counter++;
+    }
 
     // TODO Iterate over faces, assigning values to Face::index
+    for(FaceIter fiter = facesBegin(); fiter != facesEnd(); fiter++) {
+      fiter->index = counter;
+      counter++;
+    }
   }
 
   /**
@@ -419,15 +489,28 @@ namespace CMU462 {
   void HalfedgeMesh::buildSubdivisionVertexList( vector<Vector3D>& subDVertices )
   {
     // TODO Resize the vertex list so that it can hold all the vertices.
+    FaceCIter f = facesEnd(); f--;
+    size_t size = f->index + 1;
+    subDVertices.resize(size);
 
     // TODO Iterate over vertices, assigning Vertex::newPosition to the appropriate
     // location in the new vertex list.
+    for(VertexCIter viter = verticesBegin(); viter != verticesEnd(); viter++) {
+      subDVertices[viter->index] = viter->newPosition;
+    }
 
     // TODO Iterate over edges, assigning Edge::newPosition to the appropriate
     // location in the new vertex list.
+    for(EdgeCIter eiter = edgesBegin(); eiter != edgesEnd(); eiter++) {
+      subDVertices[eiter->index] = eiter->newPosition;
+    }
 
     // TODO Iterate over faces, assigning Face::newPosition to the appropriate
     // location in the new vertex list.
+    for(FaceCIter fiter = facesBegin(); fiter != facesEnd(); fiter++) {
+      subDVertices[fiter->index] = fiter->newPosition;
+    }
+
   }
 
   /**
@@ -461,6 +544,25 @@ namespace CMU462 {
     // TODO loop around face
     // TODO build lists of four indices for each sub-quad
     // TODO append each list of four indices to face list
+
+    for(FaceCIter fiter = facesBegin(); fiter != facesEnd(); fiter++) {
+
+      HalfedgeCIter hiter = fiter->halfedge();
+      Index cur_face = fiter->index;
+      do {
+        std::vector<Index> cur_quad(4);
+        Index cur_edge = hiter->edge()->index;
+        Index next_edge = hiter->next()->edge()->index;
+        Index next_vert = hiter->next()->vertex()->index;
+        cur_quad[0] = cur_edge;
+        cur_quad[1] = next_vert;
+        cur_quad[2] = next_edge;
+        cur_quad[3] = cur_face;
+        subDFaces.push_back(cur_quad);
+        hiter = hiter->next();
+      } while (hiter != fiter->halfedge());
+    }
+
   }
 
   void HalfedgeMesh::_bevel_fc_reposition_with_dist( vector<Vector3D>& orig, // list of vertex positions of the original face (before bevel)
