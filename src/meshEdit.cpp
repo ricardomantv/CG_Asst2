@@ -586,6 +586,19 @@ namespace CMU462 {
     //    Vector3D pi = orig[i]; // get the original vertex position correponding to vertex i
     // }
     //
+    for(int i = 0; i < hs.size(); i++) {
+      VertexIter v = hs[i]->vertex();
+      /*
+      FaceIter f = hs[i]->twin()->next()->twin()->face();
+      Vector3D scalePos = orig[i] * inset * 10;
+      Vector3D fnorm = f->normal();
+      Vector3D normShift = fnorm * shift * 100;
+      if(shift != 0) {
+        cout << "normShift = " << normShift << ", newPos = " << (orig[i] + normShift) << "\n";
+      }
+      */
+      v->position = orig[i];
+    }
   }
 
   void HalfedgeMesh::_bevel_vtx_reposition_with_dist( Vector3D orig, // original vertex position, before the bevel
@@ -680,9 +693,6 @@ namespace CMU462 {
       hiter = hiter->next();
     } while (hiter != h[0]);
 
-    cout << "Eveything collected\n";
-    cout << "H: " << h.size() << ", E: " << e.size() << ", V: " << v.size() << "\n";
-
     // Create new faces, edges, and vertices
     for(int i = 0; i < f0_size; i++) {
       fs.push_back(newFace()); // new face
@@ -690,6 +700,7 @@ namespace CMU462 {
       e.push_back(newEdge()); // connection edges from old face to new face
       e.push_back(newEdge()); // edges of new face
     }
+    fs.push_back(newFace()); // extra face to replace old face
 
     // Create new halfedges
     for(int i = 0; i < f0_size + 1; i++) {
@@ -703,24 +714,141 @@ namespace CMU462 {
       }
     }
 
-    // Reassign original halfedge values
-    Size f0s2 = f0_size * f0_size;
-    for(int i = 0; i < f0s2; i++) {
-      h[i]->next() = h[(i + f0_size) % f0s2];
+    // I'll need these a lot and I'm too lazy to type them repeatedly
+    int f0s2 = f0_size * 2;
+    int f0s3 = f0_size * 3;
+    int f0s4 = f0_size * 4;
+    int f0s5 = f0_size * 5;
+
+    // Reassign halfedge next() values
+    for(int i = 0; i < f0s4; i++) {
+      h[i]->next() = h[(i + f0_size) % f0s4];
+      // cout << i << " next->" << (i + f0_size) % f0s4 << "\n";
     }
 
-    for(int i = f0s2; i < f0s2 + f0_size; i++) {
-      h[i]->setNeighbors(h[(i + 1) % f0_size + f0s2],
-                         h[i - (f0_size * 2)],
-                         v[i % f0_size + f0_size],
-                         e[i - (f0_size * 2)],
-                         fs[fs.size() - 1]);
+    for(int i = f0s4; i < f0s5; i++) {
+      h[i]->next() = h[(i + 1) % f0_size + f0s4];
+      // cout << i << " next->" << (i + 1) % f0_size + f0s4 << "\n";
     }
 
-    // Reassign edge values
+    cout << "halfedge->next() reassigned\n";
+
+    // Reassign halfedge twin() values
+    for(int i = 0; i < f0s5; i++) {
+      if(i < f0_size) {
+        h[i]->twin() = h[i]->twin();
+      }
+      else if(f0_size <= i && i < f0s2) {
+        int twin = (i == f0s2 - 1) ? i + f0_size + 1 : i + f0s2 + 1;
+        h[i]->twin() = h[twin];// (i == f0s2 - 1) ? h[i + f0_size + 1] : h[i + f0s2 + 1];
+        // cout << i << " twin->" << twin << "\n";
+      }
+      else if(f0s2 <= i && i < f0s3) {
+        int twin = i + f0s2;
+        h[i]->twin() = h[twin];// h[i + f0s2];
+        // cout << i << " twin->" << twin << "\n";
+      }
+      else if(f0s3 <= i && i < f0s4) {
+        int twin = (i == f0s3) ? i - f0_size - 1 : i - f0s2 - 1;
+        h[i]->twin() = h[twin];// (i == f0s3) ? h[i - f0_size - 1] : h[i - f0s2 - 1];
+        // cout << i << " twin->" << twin << "\n";
+      }
+      else {
+        int twin = i - f0s2;
+        h[i]->twin() = h[twin];// h[i - f0s2];
+        // cout << i << " twin->" << twin << "\n";
+      }
+    }
+
+    cout << "halfedge->twin() reassigned\n";
+
+    // Reassign halfedge vertex() values
+    for(int i = 0; i < f0s5; i++) {
+      if(i < f0_size) {
+        h[i]->vertex() = h[i]->vertex();
+      }
+      else if(f0_size <= i && i < f0s2) {
+        int vert = (i + 1) % f0_size;
+        h[i]->vertex() = v[vert];// v[(i + 1) % f0_size];
+        // cout << i << " vert->" << vert << "\n";
+      }
+      else if(f0s2 <= i && i < f0s3) {
+        int vert = (i == f0s3 - 1) ? f0_size : i - f0_size + 1;
+        h[i]->vertex() = v[vert];// v[(i - f0_size + 1)];
+        // cout << i << " vert->" << vert << "\n";
+      }
+      else if(f0s3 <= i && i < f0s4) {
+        int vert = i - f0s2;
+        h[i]->vertex() = v[vert];// v[(i - f0s2)];
+        // cout << i << " vert->" << vert << "\n";
+      }
+      else {
+        int vert = i - f0s3;
+        h[i]->vertex() = v[vert]; // v[(i - f0s3)];
+        // cout << i << " vert->" << vert << "\n";
+      }
+    }
+
+    cout << "halfedge->vertex() reassigned\n";
+
+    // Reassign halfedge edge() values
+    for(int i = 0; i < f0s5; i++) {
+      if(i < f0s3) {
+        h[i]->edge() = e[i];
+      } else{
+        h[i]->edge() = h[i]->twin()->edge();
+      }
+    }
+
+    cout << "halfedge->edge() reassigned\n";
+
+    // Reassign halfedge face() values
+    for(int i = 0; i < f0s5; i++) {
+      if(i < f0s4) {
+        int face = (i % f0_size) + 1;
+        h[i]->face() = fs[face];// fs[(i % f0_size) + 1];
+        // cout << i << " face->" << face << "\n";
+
+      } else {
+        int face = fs.size() - 1;
+        h[i]->face() = fs[fs.size() - 1];
+        // cout << i << " face->" << face << "\n";
+      }
+    }
+
+    // cout << "halfedge->face() reassigned\n";
+
+    // Reassign edge halfedge() values
     for(int i = 0; i < e.size(); i++) {
       e[i]->halfedge() = h[i];
     }
+
+    // cout << "edges reassigned\n";
+
+    // Reassign vertex halfedge() values
+    for(int i = 0; i < v.size(); i++) {
+      if(i < f0_size) {
+        v[i]->halfedge() = h[i];
+      } else {
+        v[i]->halfedge() = h[i + f0s2];
+      }
+    }
+
+    // cout << "vertices reassigned\n";
+
+    // Reassign face halfedge() values
+    for(int i = 0; i < fs.size(); i++) {
+      if(i != fs.size() - 1) {
+        fs[i]->halfedge() = h[i];
+      } else{
+        fs[i]->halfedge() = h[f0s4];
+      }
+    }
+
+    // cout << "faces reassigned\n";
+
+    // Delete old face
+    deleteFace(f);
 
     return fs[fs.size() - 1];
   }
