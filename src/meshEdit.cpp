@@ -97,6 +97,17 @@ namespace CMU462 {
     e[5]->halfedge() = h[10];
     e[6]->halfedge() = h[2];
     e[7]->halfedge() = h[15];
+    // For loop subdivision
+    /*
+    e[0]->isNew = false;
+    e[1]->isNew = false;
+    e[2]->isNew = false;
+    e[3]->isNew = false;
+    e[4]->isNew = false;
+    */
+    e[5]->isNew = false;
+    e[6]->isNew = true;
+    e[7]->isNew = true;
 
     // Reassign vertices
     v[0]->halfedge() = h[14];
@@ -104,6 +115,14 @@ namespace CMU462 {
     v[2]->halfedge() = h[12];
     v[3]->halfedge() = h[5];
     v[4]->halfedge() = h[0];
+    // For loop subdivision
+    /*
+    v[0]->isNew = false;
+    v[1]->isNew = false;
+    v[2]->isNew = false;
+    v[3]->isNew = false;
+    */
+    v[4]->isNew = true;
 
     // Reassign faces
     f0->halfedge() = h[0];
@@ -247,23 +266,23 @@ namespace CMU462 {
 
     for(int i = 1; i < f0_size + f1_size; i++) {
       if(i != f0_size) {
-        // Prevent h0 from being added as outside edge
+        // Prevent h0 from being added as outside halfedge
         h.push_back(h[i]->twin());
-        // Set edge halfedge to outside halfedge for ease of reassigns later
-        h[i]->edge()->halfedge() = h[i]->twin();
       }
     }
 
     // Reassign halfedges, edges, and vertices
+    /*
     h[0]->setNeighbors(h[1], h[f0_size], v[f0_size], e[0], f0);
     e[0]->halfedge() = h[0];
     v[f0_size]->halfedge() = h[0];
 
     for(int i = 1; i < f0_size; i++) {
-      h[i]->setNeighbors(h[(i + 1) % f0_size], e[i + 1]->halfedge(), h[i]->twin()->vertex(), e[i + 1], f0);
+      HalfedgeIter twin = h[i]->twin();
+      h[i]->setNeighbors(h[(i + 1) % f0_size], e[i + 1]->halfedge(), twin->vertex(), e[i + 1], f0);
 
       // Reassign vertex and edge to moved halfedge
-      h[i]->twin()->vertex()->halfedge() = h[i];
+      twin->vertex()->halfedge() = h[i];
       e[i + 1]->halfedge() = h[i];
     }
 
@@ -271,15 +290,128 @@ namespace CMU462 {
     v[2]->halfedge() = h[f0_size];
 
     for(int i = f0_size + 1; i < f0_size + f1_size; i++) {
+      HalfedgeIter twin = h[i]->twin();
       int new_e = (i == e.size()) ? 1 : i;
-      h[i]->setNeighbors(h[(i + 1) % f0_size + f0_size], e[new_e]->halfedge(), h[i]->twin()->vertex(), e[new_e], f1);
+      h[i]->setNeighbors(h[(i + 1) % f0_size + f0_size], e[new_e]->halfedge(), twin->vertex(), e[new_e], f1);
 
       // Reassign vertex and edge to moved halfedge
-      h[i]->twin()->vertex()->halfedge() = h[i];
+      twin->vertex()->halfedge() = h[i];
       e[new_e]->halfedge() = h[i];
     }
+    */
 
-    // Reassign faces
+    // "Reassign" halfedge next() and face() values (stay the same)
+    for(int i = 0; i < h.size(); i++) {
+      h[i]->next() = h[i]->next();
+      h[i]->face() = h[i]->face();
+    }
+
+    // Reassign halfedge twin() values
+    for(int i = 0; i < h.size(); i++) {
+      int twin;
+      if(i == 0 || i == f0_size) {
+        twin = f0_size - i;
+      }
+      else if(i == f0_size + f1_size - 1) {
+        twin = i + 1;
+      }
+      else if(i < f0_size + f1_size){
+        // Generic inside halfedge reassign
+        if(h[i]->face() == f0) {
+          twin = i + f0_size + f1_size;
+        } else {
+          twin = i + f0_size + f1_size - 1;
+        }
+      }
+      else if(i == f0_size + f1_size){
+        twin = i - 1;
+      }
+      else if(f0_size + f1_size + 1 <= i && i < 2 * f0_size + f1_size){
+        // Outside halfedge of f0
+        twin = i - f0_size - f1_size;
+      }
+      else {
+        // Outside halfedge of f1
+        twin = i - f0_size - f1_size + 1;
+      }
+
+      h[i]->twin() = h[twin];
+    }
+
+    // Reassign halfedge vertex() values
+    for(int i = 0; i < h.size(); i++) {
+      VertexIter vert;
+      if(i == 0) {
+        vert = v[f0_size];
+      }
+      else if(1 <= i && i < f0_size) {
+        vert = v[(i + 1) % f0_size];
+      }
+      else if(i == f0_size) {
+        vert = v[2];
+      }
+      else if(f0_size + 1 <= i && i < f0_size + f1_size - 1) {
+        vert = v[i - 1];
+      }
+      else if(i == f0_size + f1_size - 1) {
+        vert = v[1];
+      }
+      else {
+        // Outside halfedge vertices don't change
+        vert = h[i]->vertex();
+      }
+      h[i]->vertex() = vert;
+    }
+
+    // Reassign halfedge edge() values
+    for(int i = 0; i < h.size(); i++) {
+      EdgeIter edge;
+      if(i == 0 || i == f0_size) {
+        edge = e[0];
+      }
+      else if(1 <= i && i < f0_size) {
+        edge = e[i];
+      }
+      else if(f0_size + 1 <= i && i < f0_size + f1_size) {
+        edge = e[i - 1];
+      }
+      else {
+        edge = h[i]->edge();
+      }
+      h[i]->edge() = edge;
+    }
+
+    // Reassign edge halfedge() values
+    for(int i = 0; i < e.size(); i++) {
+      HalfedgeIter half;
+      if(i < f0_size) {
+        half = h[i];
+      } else {
+        half = h[i + 1];
+      }
+      e[i]->halfedge() = half;
+    }
+
+    // Reassign vertex halfedge() values
+    for(int i = 0; i < v.size(); i++) {
+      HalfedgeIter half;
+      if(i == f0_size) {
+        half = h[0];
+      }
+      else if(i == 1) {
+        half = h[f0_size + f1_size - 1];
+      }
+      else if(f0_size <= i && i < f0_size + f1_size - 1) {
+        half = h[i + 1];
+      }
+      else {
+        // Case for v[0]->v[f0_size], skipping v[1] as separate case
+        half = h[(i + f0_size - 1) % f0_size];
+      }
+      v[i]->halfedge() = half;
+    }
+
+    // Reassign face halfedge() values
     f0->halfedge() = h[0];
     f1->halfedge() = h[0]->twin();
 
@@ -723,15 +855,11 @@ namespace CMU462 {
     // Reassign halfedge next() values
     for(int i = 0; i < f0s4; i++) {
       h[i]->next() = h[(i + f0_size) % f0s4];
-      // cout << i << " next->" << (i + f0_size) % f0s4 << "\n";
     }
 
     for(int i = f0s4; i < f0s5; i++) {
       h[i]->next() = h[(i + 1) % f0_size + f0s4];
-      // cout << i << " next->" << (i + 1) % f0_size + f0s4 << "\n";
     }
-
-    cout << "halfedge->next() reassigned\n";
 
     // Reassign halfedge twin() values
     for(int i = 0; i < f0s5; i++) {
@@ -741,26 +869,20 @@ namespace CMU462 {
       else if(f0_size <= i && i < f0s2) {
         int twin = (i == f0s2 - 1) ? i + f0_size + 1 : i + f0s2 + 1;
         h[i]->twin() = h[twin];// (i == f0s2 - 1) ? h[i + f0_size + 1] : h[i + f0s2 + 1];
-        // cout << i << " twin->" << twin << "\n";
       }
       else if(f0s2 <= i && i < f0s3) {
         int twin = i + f0s2;
         h[i]->twin() = h[twin];// h[i + f0s2];
-        // cout << i << " twin->" << twin << "\n";
       }
       else if(f0s3 <= i && i < f0s4) {
         int twin = (i == f0s3) ? i - f0_size - 1 : i - f0s2 - 1;
         h[i]->twin() = h[twin];// (i == f0s3) ? h[i - f0_size - 1] : h[i - f0s2 - 1];
-        // cout << i << " twin->" << twin << "\n";
       }
       else {
         int twin = i - f0s2;
         h[i]->twin() = h[twin];// h[i - f0s2];
-        // cout << i << " twin->" << twin << "\n";
       }
     }
-
-    cout << "halfedge->twin() reassigned\n";
 
     // Reassign halfedge vertex() values
     for(int i = 0; i < f0s5; i++) {
@@ -770,26 +892,20 @@ namespace CMU462 {
       else if(f0_size <= i && i < f0s2) {
         int vert = (i + 1) % f0_size;
         h[i]->vertex() = v[vert];// v[(i + 1) % f0_size];
-        // cout << i << " vert->" << vert << "\n";
       }
       else if(f0s2 <= i && i < f0s3) {
         int vert = (i == f0s3 - 1) ? f0_size : i - f0_size + 1;
         h[i]->vertex() = v[vert];// v[(i - f0_size + 1)];
-        // cout << i << " vert->" << vert << "\n";
       }
       else if(f0s3 <= i && i < f0s4) {
         int vert = i - f0s2;
         h[i]->vertex() = v[vert];// v[(i - f0s2)];
-        // cout << i << " vert->" << vert << "\n";
       }
       else {
         int vert = i - f0s3;
         h[i]->vertex() = v[vert]; // v[(i - f0s3)];
-        // cout << i << " vert->" << vert << "\n";
       }
     }
-
-    cout << "halfedge->vertex() reassigned\n";
 
     // Reassign halfedge edge() values
     for(int i = 0; i < f0s5; i++) {
@@ -800,30 +916,21 @@ namespace CMU462 {
       }
     }
 
-    cout << "halfedge->edge() reassigned\n";
-
     // Reassign halfedge face() values
     for(int i = 0; i < f0s5; i++) {
       if(i < f0s4) {
         int face = (i % f0_size) + 1;
         h[i]->face() = fs[face];// fs[(i % f0_size) + 1];
-        // cout << i << " face->" << face << "\n";
-
       } else {
         int face = fs.size() - 1;
         h[i]->face() = fs[fs.size() - 1];
-        // cout << i << " face->" << face << "\n";
       }
     }
-
-    // cout << "halfedge->face() reassigned\n";
 
     // Reassign edge halfedge() values
     for(int i = 0; i < e.size(); i++) {
       e[i]->halfedge() = h[i];
     }
-
-    // cout << "edges reassigned\n";
 
     // Reassign vertex halfedge() values
     for(int i = 0; i < v.size(); i++) {
@@ -834,8 +941,6 @@ namespace CMU462 {
       }
     }
 
-    // cout << "vertices reassigned\n";
-
     // Reassign face halfedge() values
     for(int i = 0; i < fs.size(); i++) {
       if(i != fs.size() - 1) {
@@ -844,8 +949,6 @@ namespace CMU462 {
         fs[i]->halfedge() = h[f0s4];
       }
     }
-
-    // cout << "faces reassigned\n";
 
     // Delete old face
     deleteFace(f);
@@ -950,8 +1053,32 @@ namespace CMU462 {
     // the new mesh based on the values we computed for the original mesh.
 
     // Compute updated positions for all the vertices in the original mesh, using the Loop subdivision rule.
+    for(VertexIter viter = mesh.verticesBegin(); viter != mesh.verticesEnd(); viter++) {
+      Size n = viter->degree();
+      float u = (n == 3) ? 3.0f/16.0f : 3.0f/8.0f;
+      Vector3D vert_sum = Vector3D(0.0f, 0.0f, 0.0f);
+      HalfedgeIter hiter = viter->halfedge();
+      do {
+        VertexIter neigh_v = hiter->next()->vertex();
+        vert_sum += neigh_v->position;
+        hiter = hiter->twin()->next();
+      } while(hiter != viter->halfedge());
+
+      viter->newPosition = (1 - n * u) * (viter->position) + u * vert_sum;
+      viter->isNew = false;
+    }
 
     // Next, compute the updated vertex positions associated with edges.
+    for(EdgeIter eiter = mesh.edgesBegin(); eiter != mesh.edgesEnd(); eiter++) {
+      HalfedgeIter hiter = eiter->halfedge();
+      Vector3D A = hiter->vertex()->position;
+      Vector3D B = hiter->twin()->vertex()->position;
+      Vector3D C = hiter->next()->next()->vertex()->position;
+      Vector3D D = hiter->twin()->next()->next()->vertex()->position;
+
+      eiter->newPosition = (3.0f/8.0f) * (A + B) + (1.0f/8.0f) * (C + D);
+      eiter->isNew = false;
+    }
 
     // Next, we're going to split every edge in the mesh, in any order.  For future
     // reference, we're also going to store some information about which subdivided
@@ -959,10 +1086,37 @@ namespace CMU462 {
     // In this loop, we only want to iterate over edges of the original mesh---otherwise,
     // we'll end up splitting edges that we just split (and the loop will never end!)
 
+    Size num_edges = mesh.nEdges();
+    EdgeIter eiter = mesh.edgesBegin();
+    int count = 0;
+    while(count != num_edges) {
+      EdgeIter next = eiter;
+      next++;
+      if(!(eiter->isNew)) {
+        mesh.splitEdge(eiter);
+      }
+      eiter = next;
+      count++;
+    }
+
     // Finally, flip any new edge that connects an old and new vertex.
+    for(EdgeIter eiter = mesh.edgesBegin(); eiter != mesh.edgesEnd(); eiter++) {
+      VertexIter v0 = eiter->halfedge()->vertex();
+      VertexIter v1 = eiter->halfedge()->twin()->vertex();
+      if((v0->isNew != v1->isNew) && eiter->isNew) {
+        // This is broken and I'm not really sure why...
+        mesh.flipEdge(eiter);
+      }
+    }
 
     // Copy the updated vertex positions to the subdivided mesh.
-
+    for(VertexIter viter = mesh.verticesBegin(); viter != mesh.verticesEnd(); viter++) {
+      if(!viter->isNew) {
+        viter->position = viter->newPosition;
+      } else {
+        viter->position = viter->halfedge()->edge()->newPosition;
+      }
+    }
   }
 
   void MeshResampler::downsample(HalfedgeMesh& mesh)
